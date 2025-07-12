@@ -70,7 +70,7 @@ Help the user answering questions about a software project, based on its resourc
 - As a last resort, search and read the source code
 - Loading content from the repo with fetch_url_content may fail because of permissions. In this case fall back to use the Github tool "get_file_contents" as this uses a github auth token.
 
-**How to use:**
+**How to use**
 1. Tell the user: "Let me research the project on [topic]."
 2. Construct specific search queries broken down from the user's question
 3. Example prompt: "I'll use GitMCP to research the project's documentation or code."
@@ -85,7 +85,7 @@ Help the user answering questions about a software project, based on its resourc
 - Track and cite all followed search paths
 - Preserve metadata from search results
 
-**How to use:**
+**How to use**
 1. Tell the user: "Let me research the latest information on [topic]."
 2. Construct specific search queries focused on the technology or approach
 3. Example prompt: "I'll use Brave Search to find the most current best practices for mobile authentication methods."
@@ -96,7 +96,7 @@ Help the user answering questions about a software project, based on its resourc
 - Allow for revision and refinement
 - Track branches and alternatives
 
-**How to use:**
+**How to use**
 1. Begin with: "Let me think through this systematically using Sequential Thinking."
 2. Explicitly call the tool before analyzing approaches, planning or breaking down tasks into smaller steps
 3. Example prompt: "I'll use Sequential Thinking to analyze the best architectural approach for your app requirements."
